@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>게시판</title>
+<link rel="stylesheet" type="text/css" href="join.css">
+</head>
+<body>
+<form action="community_insert.jsp" name="form1" method="post">
+	<fieldset>
+		<legend>게시판 글 올리기</legend>
+		<div>
+			<label for="user_name">이름 : </label>
+			<input type="text" name="user_name" id="user_name">
+		</div>
+		<div>
+			<label for="user_pwd">비밀번호 : </label>
+			<input type="password" name="user_pwd" id="user_pwd">
+		</div>
+		<div>
+			<label for="email">이메일 : </label>
+			<input type="text" name="email" id="email">
+		</div>
+		<div>
+			<label for="subject">제목 : </label>
+			<input type="text" name="subject" id="subject">
+		</div>
+		<div>
+			<label for="content">내용 : </label>
+			<textArea rows="10" cols="45" name="content" id="content"></textArea>
+		</div>
+		<div>
+			<input type="submit" value="입력완료">
+			<input type="reset" value="다시작성">
+		</div>
+	</fieldset>
+</form>
+</body>
+</html>
